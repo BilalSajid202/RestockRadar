@@ -1,0 +1,43 @@
+# Core & Configuration
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+PyYAML>=6.0.1
+
+# Computer Vision & Detection
+ultralytics>=8.2.0
+opencv-python>=4.9.0
+pillow>=10.3.0
+numpy>=1.26.0
+
+# PyTorch (Forecasting & Deep Learning)
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Database & Migrations
+SQLAlchemy>=2.0.29
+alembic>=1.13.1
+psycopg2-binary>=2.9.9
+
+# API & Web
+fastapi>=0.110.0
+uvicorn>=0.29.0
+streamlit>=1.33.0
+
+# Background Tasks & Scheduling
+celery>=5.3.6
+
+# Generative AI & Natural Language
+sqlglot>=23.6.0
+
+# Email Testing & Mocking
+aiosmtpd>=1.4.5
+
+# Data Handling & Analysis
+pandas>=2.2.0
+scikit-learn>=1.4.2
+
+# Testing & Quality
+pytest>=8.1.1
+ruff>=0.4.0
+mypy>=1.9.0

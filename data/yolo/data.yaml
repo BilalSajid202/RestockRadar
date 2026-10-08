@@ -1,0 +1,25 @@
+# YOLOv8 Dataset Configuration - Restock Radar (Shelf Watcher)
+# Classes list is the single source of truth (context.md Section 16)
+
+path: ../data/yolo
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 12
+
+# Class names
+names:
+  0: gap
+  1: milk_1l
+  2: yogurt_500g
+  3: apple_juice_1l
+  4: orange_juice_1l
+  5: white_bread_400g
+  6: corn_flakes_375g
+  7: cooking_oil_1l
+  8: basmati_rice_1kg
+  9: tomato_ketchup_500g
+  10: black_tea_400g
+  11: person
