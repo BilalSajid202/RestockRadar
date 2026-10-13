@@ -1,0 +1,51 @@
+{
+  "models": [
+    {
+      "model_id": "forecaster-lstm-v1",
+      "kind": "forecaster",
+      "version": "v1",
+      "metrics": {
+        "wape_lstm": 27.32,
+        "wape_baseline_ma": 26.5,
+        "wape_baseline_sn": 37.63,
+        "data_origin": "simulated"
+      },
+      "path": "D:\\University\\7th sem\\Data visualization\\Project\\RestockRadar\\backend\\models\\forecaster\\v1\\best.pt",
+      "status": "CANDIDATE",
+      "trained_at": "2026-10-08T06:12:11.757835+00:00"
+    },
+    {
+      "model_id": "forecaster-lstm-v1",
+      "kind": "forecaster",
+      "version": "v1",
+      "metrics": {
+        "wape_lstm": 25.67,
+        "wape_fast_movers": 22.04,
+        "wape_baseline_ma": 26.5,
+        "wape_baseline_sn": 37.63,
+        "data_origin": "simulated"
+      },
+      "path": "D:\\University\\7th sem\\Data visualization\\Project\\RestockRadar\\backend\\models\\forecaster\\v1\\best.pt",
+      "status": "CHAMPION",
+      "trained_at": "2026-10-08T06:28:48.699044+00:00"
+    },
+    {
+      "model_id": "forecaster-lstm-v1",
+      "kind": "forecaster",
+      "version": "v1",
+      "metrics": {
+        "wape_lstm": 25.89,
+        "wape_fast_movers": 21.88,
+        "wape_baseline_ma": 26.5,
+        "wape_baseline_sn": 37.63,
+        "data_origin": "simulated"
+      },
+      "path": "D:\\University\\7th sem\\Data visualization\\Project\\RestockRadar\\backend\\models\\forecaster\\v1\\best.pt",
+      "status": "CHAMPION",
+      "trained_at": "2026-10-08T06:29:25.880606+00:00"
+    }
+  ],
+  "champion_detector": null,
+  "champion_forecaster": "forecaster-lstm-v1",
+  "updated_at": "2026-10-08T06:29:25.880606+00:00"
+}
